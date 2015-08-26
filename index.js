@@ -11,9 +11,9 @@
     }
 
     var _modules = {
-            /*require: function(name){
+            require: function(name){
                 return _modules[name];
-            }*/
+            }
         },
         _unInitModules = {},
         // 加载本模块时，其依赖的模块还没有加载完
